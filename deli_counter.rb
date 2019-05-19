@@ -7,7 +7,7 @@ def line(katz_deli)
     # puts "The line is currently #{line_counter}. #{i}"
     line_counter += 1
   end
-  if katz_deli.empty? == false
+  if katz_deli.empty? == true
     puts "The line is currently empty."
   end
 end
