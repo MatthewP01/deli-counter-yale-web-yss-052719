@@ -17,4 +17,5 @@ end
 
 def take_a_number(array, string)
   line_counter = 1
+  position = array[string]
 end
