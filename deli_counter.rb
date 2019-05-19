@@ -4,7 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     line_counter = 1
-    for i in katz_deli.size
+    for i in katz_deli
       puts "The line is currently #{line_counter}. #{i}"
       line_counter += 1
     end
