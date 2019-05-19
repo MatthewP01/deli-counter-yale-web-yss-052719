@@ -17,4 +17,5 @@ end
 
 def take_a_number(katz_deli, person)
   added = katz_deli << person
+  return added
 end
