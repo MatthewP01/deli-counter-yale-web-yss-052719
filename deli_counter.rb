@@ -8,7 +8,8 @@ def line(katz_deli)
     end
   else
     puts "The line is currently empty."
+  end
 
-    
+
   end
 end
