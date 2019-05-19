@@ -11,7 +11,7 @@ def line(katz_deli)
     line_total << counter
     line_counter += 1
   end
-  
+
   end
   puts "The current line is #{line_total}"
 end
