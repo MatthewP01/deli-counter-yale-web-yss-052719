@@ -13,5 +13,6 @@ def line(katz_deli)
     end
     for i in line_total
       puts "The line is currently #{i}."
+    end
   end
 end
