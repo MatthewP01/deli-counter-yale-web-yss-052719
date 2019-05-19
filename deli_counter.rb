@@ -1,5 +1,8 @@
 # Write your code here.
 def line(katz_deli)
+  if katz_deli.empty? == true
+    puts "The line is currently empty."
+  else  
   line_total = []
   line_counter = 1
   katz_deli.each do |x|
@@ -8,8 +11,7 @@ def line(katz_deli)
     line_total << counter
     line_counter += 1
   end
-  if katz_deli.empty? == true
-    puts "The line is currently empty."
+  
   end
   puts "The current line is #{line_total}"
 end
