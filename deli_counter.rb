@@ -23,7 +23,7 @@ end
 
 def now_serving(katz_deli)
   first_person = katz_deli.first
-  puts "Now serving #{first_person}."
+  puts "Currently serving #{first_person}."
   list_minus_one = katz_deli.shift
   return list_minus_one
 end
