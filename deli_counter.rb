@@ -5,6 +5,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     for i in katz_deli
-      puts "The line is currently #{katz_deli}"
+      puts "The line is currently #{line_counter}. #{katz_deli}"
   end
 end
