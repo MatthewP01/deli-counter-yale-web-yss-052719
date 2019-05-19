@@ -11,6 +11,6 @@ def line(katz_deli)
       line_total << counter
       line_counter += 1
     end
-    puts "The line is currently #{line_total.join(" ")}."
+    puts "The line is currently: #{line_total.join(" ")}."
   end
 end
