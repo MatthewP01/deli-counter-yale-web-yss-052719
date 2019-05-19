@@ -12,4 +12,5 @@ def line(katz_deli)
       line_counter += 1
     end
     puts "The line is currently #{line_total}."
+  end
 end
