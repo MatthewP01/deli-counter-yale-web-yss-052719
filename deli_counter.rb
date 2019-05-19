@@ -1,7 +1,8 @@
 # Write your code here.
 def line(katz_deli)
   line_counter = 1
-  for i in katz_deli
+  katz_deli.each do |x|
+    
     puts "The line is currently #{line_counter}. #{i}"
     line_counter += 1
   end
