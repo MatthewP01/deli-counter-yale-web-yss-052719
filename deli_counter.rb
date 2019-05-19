@@ -6,6 +6,7 @@ def line(katz_deli)
   else
     katz_deli.each do |line|
       puts "The line is currently #{line_counter}. #{line}"
+      line_counter += 1
     end
   end
 end
