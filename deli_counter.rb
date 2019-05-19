@@ -17,7 +17,4 @@ end
 
 def take_a_number(array, string)
   added = array << string
-  line_counter = 1
-  position = array[string]
-  puts "You are position 1"
 end
