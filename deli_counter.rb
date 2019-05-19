@@ -6,5 +6,6 @@ def line(katz_deli)
   else
     for i in katz_deli
       puts "The line is currently #{line_counter}. #{katz_deli[i]}"
+    end
   end
 end
