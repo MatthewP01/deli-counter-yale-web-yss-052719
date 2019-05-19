@@ -23,5 +23,5 @@ end
 
 def now_serving(katz_deli)
   first_person = katz_deli.first
-  puts "Now serving"
+  puts "Now serving #{first_person}"
 end
